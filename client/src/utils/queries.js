@@ -18,4 +18,4 @@ export const QUERY_ME = gpl`
       }
     }
 }
-`
+`;
