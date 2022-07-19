@@ -46,7 +46,7 @@ mutation saveBook($book: SavedBookInput!) {
 `;
 
 // Allows you to remove books 
-export const REMOVE_BOOK = qpl`
+export const REMOVE_BOOK = gql`
 mutation removeBook($bookId: String!) {
     removeBook(bookId: $bookId) {
         username

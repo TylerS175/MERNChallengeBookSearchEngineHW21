@@ -13,6 +13,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.1.0"
-  }
+    "concurrently": "^5.2.0"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-server-express": "^2.15.0",
+    "if-env": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerS175/MERNChallengeBookSearchEngineHW21.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TylerS175/MERNChallengeBookSearchEngineHW21/issues"
+  },
+  "homepage": "https://github.com/TylerS175/MERNChallengeBookSearchEngineHW21#readme"
 }
