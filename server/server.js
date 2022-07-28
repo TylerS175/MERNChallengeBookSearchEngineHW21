@@ -18,11 +18,11 @@ const server = new ApolloServer({
 });
 
 //Syncing the Apollo Server with the express app
-// const startApolloServer = async (typeDefs, resolvers) => {
-//   await server.start();
+const startApolloServer = async (typeDefs, resolvers) => {
+  await server.start();
   server.applyMiddleware({ app });
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // if we're in production, serve client/build as static assets
@@ -44,7 +44,7 @@ db.once('open', () => {
     console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
   })
 })
-
+};
 
 // Call the async function to start the server
 startApolloServer(typeDefs, resolvers);

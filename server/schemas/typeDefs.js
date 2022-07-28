@@ -1,8 +1,8 @@
-const { gpl } = require('apollo-server-express');
+const { gql } = require('apollo-server-express');
 
 // Define your typeDefs 
 
-const typeDefs = gpl`
+const typeDefs = gql`
     type Book {
         _id: ID
         authors: [String]
