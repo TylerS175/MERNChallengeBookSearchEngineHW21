@@ -13,7 +13,7 @@ Installation:
 _________________________________________________
 
 Page Outlook: 
-[!screenshot](/client/src/images/Screen%20Shot%202022-07-27%20at%209.23.27%20PM.png)
+![screenshot](/client/src/images/Screen%20Shot%202022-07-27%20at%209.23.27%20PM.png)
 
 __________________________________________________
 
